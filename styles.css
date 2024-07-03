@@ -1,4 +1,12 @@
 .btn__navbarcolor{
-background-color: violet;
-color: antiquewhite;
-}
+    background-color: blueviolet;
+    color: #fff;
+    }
+    /* 
+    .clase{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    d-flex justify-content-center */
