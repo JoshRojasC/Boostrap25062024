@@ -29,6 +29,7 @@ Autor: "Edgar Allan Poe"
 Año: "2016"
 }
 
+
 // Mostrar la propiedad "El libro fue escrito por : 'autor' " 'autor' del objeto en la consola
 console.log(`el libro fue escruto por ${libro.Autor}`);
 
