@@ -4,27 +4,33 @@
 //1-Crear una función que salude
 // Crear una función llamada 'saludar' que tome un parámetro 'nombre' y retorne un saludo
 // Solicitar al usuario ingresar su nombre y mostrar el saludo en la consola
-let nombre = prompt("Ingresa tu nombre:");
+let nombre = prompt("Josue Rojas:");
 
 console.log(saludar(nombre));
 
 //2-Determinar si una persona es mayor de edad
+function esMayorDeEdad(edad)
 
 // Solicitar al usuario ingresar su edad
 let edad = parseInt(prompt("Ingresa tu edad:"));
 // Verificar si la persona es mayor de edad y mostrar el resultado en la consola
-if () {
-    Mensajeexitoso()
+if (esMayorDeedad >= 18) {
+    Mensajeexitoso("Eres Mayor de Edad")
 } else {
-    MensajeFallido()
+    MensajeFallido("Lastimosamente eres menor de edad")
 }
 
 //3-Crear un objeto con información de un libro y mostrar una propiedad
 // Crear un objeto llamado 'libro' con propiedades 'titulo', 'autor' y 'anio'
-let libro []
+let libro = {
+
+    Titulo: "Narraciones Extraordinarias"
+Autor: "Edgar Allan Poe"
+Año: "2016"
+}
 
 // Mostrar la propiedad "El libro fue escrito por : 'autor' " 'autor' del objeto en la consola
-console.log();
+console.log(`el libro fue escruto por ${libro.Autor}`);
 
 
 //4-Verificar si una cadena está vacía
@@ -32,10 +38,10 @@ console.log();
 // Solicitar al usuario ingresar una cadena o string 
 let cadena = prompt("Ingresa una cadena:");
 // Verificar si la cadena está vacía y mostrar el resultado en la consola
-if () {
-    console.log();
+if (cadena == "") {
+    console.log("la cadena esta vacia");
 } else {
-    console.log();
+    console.log("la cadena no esta vacia");
 }
 
 //5-Usar un switch para mostrar el día de la semana
@@ -47,15 +53,34 @@ switch (dia) {
     case 1:
         console.log("Es Lunes ");
         break;
+    case 2:
+        console.log("Es Martes");
+    case 3:
+        console.log("Es miercoles ");
+        break;
+    case 4:
+        console.log("Es jueves ");
+        break;
+    case 5:
+        console.log("Es viernes ");
+        break;
+    case 6:
+        console.log("Es sabado");
+        break;
+    case 7:
+        console.log("Es domingo ");
+        break;
     default:
-        console.log();
+        console.log("numero incorrecto, debe ingresar un digito del 1 al 7")
 }
 
 //6-Crear un array y mostrar la posicion 7 y 0
 // Crear un array llamado 'Pokemones' con al menos 10 Especies
 
-let Pokemones
-
+let Pokemones = ["Eevee", "Vulpix"," Growlithe", "Machop","Abra", "Pidgey", "Rattata", "Geodude","Magikarp","Gengar"]
+console.log (Pokemones)
+console.log(7)
+console.log(0)
 //7-Usar un operador lógico para verificar si un número está en un rango
 // Solicitar al usuario ingresar un número
 let numero = parseFloat(prompt("Ingresa un número:"));
@@ -78,9 +103,9 @@ console.log();
 //9 Crear una constante y mostrarla en consola
 
 // Crear una constante llamada 'pi' y asignarle un valor
-const pi;
+const pi = 3.14 ;
 // Mostrar el valor de 'pi' en la consola
-console.log();
+console.log(`el valor de pi es: ${pi}`);
 
 // 10 Verificar si una persona puede votar
 // Instrucción: Solicitar al usuario ingresar su edad y nacionalidad. Crear una función que verifique si la persona puede votar. La persona puede votar si tiene 18 años o más y es de nacionalidad 'peruana' o 'colombiana'.
