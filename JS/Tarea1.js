@@ -4,6 +4,8 @@
 //1-Crear una función que salude
 // Crear una función llamada 'saludar' que tome un parámetro 'nombre' y retorne un saludo
 // Solicitar al usuario ingresar su nombre y mostrar el saludo en la consola
+Function saludar(nombre)
+
 let nombre = prompt("Josue Rojas:");
 
 console.log(saludar(nombre));
@@ -124,4 +126,4 @@ function puedeVotar(edad, nacionalidad)
 let edad = parseInt(prompt("Ingresa tu edad:"));
 
 // Función para verificar si la persona está en edad escolar o es adulto mayor
-function verificarEdad(edad) 
+function verificarEdad(edad);
