@@ -74,16 +74,16 @@ switch (dia) {
         console.log("Es domingo ");
         break;
     default:
-        console.log("numero incorrecto, debe ingresar un digito del 1 al 7")
+        console.log("numero incorrecto, debe ingresar un digito del 1 al 7");
 }
 
 //6-Crear un array y mostrar la posicion 7 y 0
 // Crear un array llamado 'Pokemones' con al menos 10 Especies
 
 let Pokemones = ["Eevee", "Vulpix"," Growlithe", "Machop","Abra", "Pidgey", "Rattata", "Geodude","Magikarp","Gengar"]
-console.log (Pokemones)
-console.log(7)
-console.log(0)
+console.log (Pokemones);
+console.log(7);
+console.log(0);
 //7-Usar un operador lógico para verificar si un número está en un rango
 // Solicitar al usuario ingresar un número
 let numero = parseFloat(prompt("Ingresa un número:"));
@@ -118,7 +118,7 @@ let edad = parseInt(prompt("Ingresa tu edad:"));
 let nacionalidad = prompt("Ingresa tu nacionalidad:");
 
 // Función para verificar si la persona puede votar
-function puedeVotar(edad, nacionalidad)
+function puedeVotar(edad, nacionalidad);
 
 //11  Determinar si una persona está en edad escolar
 // Instrucción: Solicitar al usuario ingresar su edad y verificar si la persona está en edad escolar (de 6 a 18 años) o si es un adulto mayor (65 años o más).
