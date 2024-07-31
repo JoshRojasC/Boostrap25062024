@@ -43,9 +43,9 @@ const imagenDefault = 'img/default.jpg'; // Imagen de respaldo
 function Mostrar_LigaDeLaJusticia(Heroes) {
     let mensaje = "Héroes de la Liga de la Justicia:\n\n";
     Heroes.forEach(hero => {
-        mensaje += `Nombre: ${hero.nombre}\n`;
-        mensaje += `Bio: ${hero.bio}\n`;
-        mensaje += `Casa: ${hero.casa}\n\n`;
+        mensaje += `Nombre: ${hero.nombre}`;
+        mensaje += `Bio: ${hero.bio}`;
+        mensaje += `Casa: ${hero.casa}`;
     });
 
     // Muestra la información de los héroes como alerta
