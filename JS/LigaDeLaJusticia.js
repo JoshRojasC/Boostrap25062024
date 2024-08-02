@@ -2,7 +2,7 @@ console.log("funcionando");
 // 1--- Evento que carga la funcion cuadno el DOM este en la pagina 
 // control espacio para que aparezcan los eventos 
 document.addEventListener('DOMContentLoaded', ev => {
-
+    Mostrar_LigaDeLaJusticia(Heroes)
 })
 //2-- Arreglo de objetos
 const Heroes = [
@@ -32,7 +32,6 @@ const Heroes = [
     }
 ];
 
-const imagenDefault = 'img/default.jpg'; // Imagen de respaldo
 
 // 3-- Funcion que muestra los heroes 
 //A ID del contenedor
@@ -41,24 +40,31 @@ const imagenDefault = 'img/default.jpg'; // Imagen de respaldo
 //D Meter la plantilla en el contenedor
 
 function Mostrar_LigaDeLaJusticia(Heroes) {
-    let mensaje = "Héroes de la Liga de la Justicia:\n\n";
-    Heroes.forEach(hero => {
-        mensaje += `Nombre: ${hero.nombre}`;
-        mensaje += `Bio: ${hero.bio}`;
-        mensaje += `Casa: ${hero.casa}`;
+
+    let Contenedor = document.getElementById("ContenedorHeroes")
+
+    let plantilla = ""
+    Heroes.forEach(element => {
+        plantilla + = `<div>
+                <h2>${nombre}</h2>
+                <p>${bio}</p>
+                <img src="${element.img}" alt="${element.nombre}">
+            </div>`
+
     });
 
     // Muestra la información de los héroes como alerta
-    alert(mensaje);
+    Contenedor.innerHTML = plantilla
+    console.log(Heroes);
 }
 
-    //Contenedor.innerHtml = Plantilla //D
+//Contenedor.innerHtml = Plantilla //D
 
 
 
-    //let Contenedor //A
-    //let Plantilla //B
-    //C
+//let Contenedor //A
+//let Plantilla //B
+//C
 
 
-    //Contenedor.innerHtml = Plantilla //D
+//Contenedor.innerHtml = Plantilla //D
